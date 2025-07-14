@@ -5,11 +5,11 @@
     <a href="https://www.linkedin.com/in/alirezayahyanejad">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://github.com/yahyanejadalre">
+    <a href="https://github.com/alirezayaned">
       <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=yahyanejadalre&style=flat-square&color=blue" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=alirezayaned&style=flat-square&color=blue" alt=""/>
   
   <h1>
     Alireza Yahyanejad
@@ -19,8 +19,8 @@
 
 - 👋 Hi, I’m Alireza Yahyanejad.
 - 👀 I’m interested in Artificial Intelligence.
-- 🌱 I’m currently specializing in Artificial Intelligence at Politecnico di Milano.
-- 📫 You can contact me through <a href="https://www.linkedin.com/in/alirezayahyanejad/">LinkedIn</a> or by dropping me an <a href="mailto:yahyanejadalre@gmail.com">email</a>.
+- 🎓 I have a Master's degree in Artificial Intelligence from Politecnico di Milano.
+- 📫 You can contact me through <a href="https://www.linkedin.com/in/alirezayahyanejad/">LinkedIn</a> or by dropping me an <a href="mailto:alirezayaned@gmail.com">email</a>.
 
-![GitHub Snake Light](https://github.com/yahyanejadalre/yahyanejadalre/blob/output/github-snake.svg#gh-light-mode-only)
-![GitHub Snake dark](https://github.com/yahyanejadalre/yahyanejadalre/blob/output/github-snake-dark.svg#gh-dark-mode-only)
+![GitHub Snake Light](https://github.com/alirezayaned/alirezayaned/blob/output/github-snake.svg#gh-light-mode-only)
+![GitHub Snake dark](https://github.com/alirezayaned/alirezayaned/blob/output/github-snake-dark.svg#gh-dark-mode-only)
