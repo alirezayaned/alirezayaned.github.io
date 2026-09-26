@@ -20,7 +20,7 @@
 - 👋 Hi, I’m Alireza Yahyanejad.
 - 👀 I’m interested in Artificial Intelligence.
 - 🎓 I have a Master's degree in Artificial Intelligence from Politecnico di Milano.
-- 📫 You can contact me through <a href="https://www.linkedin.com/in/alirezayahyanejad/">LinkedIn</a> or by dropping me an <a href="mailto:alirezayaned@gmail.com">email</a>.
+- 📫 You can contact me through <a href="https://www.linkedin.com/in/alirezayahyanejad/">LinkedIn</a>.
 
 ![GitHub Snake Light](https://github.com/alirezayaned/alirezayaned/blob/output/github-snake.svg#gh-light-mode-only)
 ![GitHub Snake dark](https://github.com/alirezayaned/alirezayaned/blob/output/github-snake-dark.svg#gh-dark-mode-only)
