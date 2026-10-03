@@ -4,7 +4,7 @@ const menu = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const savedTheme = localStorage.getItem('portfolio-theme');
-const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
 function setTheme(isDark) {
   body.classList.toggle('dark', isDark);
@@ -12,7 +12,12 @@ function setTheme(isDark) {
   themeColor.setAttribute('content', isDark ? '#161c1d' : '#f4f3ee');
 }
 
-setTheme(savedTheme ? savedTheme === 'dark' : true);
+// Use the visitor's saved choice; otherwise follow their system setting.
+setTheme(savedTheme ? savedTheme === 'dark' : darkQuery.matches);
+
+darkQuery.addEventListener('change', (event) => {
+  if (!localStorage.getItem('portfolio-theme')) setTheme(event.matches);
+});
 
 themeToggle.addEventListener('change', () => {
   const isDark = themeToggle.checked;
