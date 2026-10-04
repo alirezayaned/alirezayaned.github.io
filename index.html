@@ -179,6 +179,7 @@
         "Real-time speech AI",
         "Automatic speech recognition",
         "Speaker diarization",
+        "Pronunciation assessment",
         "Text-to-video generation",
         "MLOps",
         "Cloud data engineering",
@@ -219,6 +220,21 @@
         "height": 887
       },
       "dateCreated": "2026-09-30",
+      "dateModified": "2026-10-03"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://alirezayaned.github.io/#teachme",
+      "name": "TeachMe: English Pronunciation Coach",
+      "description": "Offline English pronunciation coach: word- and sound-level feedback via CTC forced alignment on a Conformer-CTC model, plus an AI conversation partner (Qwen2.5) that corrects grammar.",
+      "codeRepository": "https://github.com/alirezayaned/TeachMe-English-Pronunciation-Coach",
+      "programmingLanguage": "Python",
+      "license": "https://opensource.org/licenses/MIT",
+      "keywords": "pronunciation assessment, speech recognition, CTC forced alignment, ONNX Runtime, Qwen2.5, DeepEval, Gradio",
+      "image": "https://alirezayaned.github.io/assets/projects/teachme-report.webp",
+      "author": {
+        "@id": "https://alirezayaned.github.io/#person"
+      },
       "dateModified": "2026-10-03"
     },
     {
@@ -279,6 +295,22 @@
           <article class="project-item">
             <div class="project-index"><span class="number">01</span><span class="project-year">2026 · Personal</span></div>
             <div class="project-body">
+              <h3>TeachMe: English Pronunciation Coach</h3>
+              <p>Speak a sentence and get word-by-word, sound-by-sound feedback on your pronunciation, then practise real conversations with an AI partner that corrects your grammar. It runs offline on a laptop CPU or a free Hugging Face Space, using only open-source models.</p>
+              <figure class="project-shot"><img src="assets/projects/teachme-report.webp" width="634" height="588" loading="lazy" alt="TeachMe pronunciation report showing an overall score of 52, colour-coded words, and a table of mispronounced sounds with IPA and tips" /></figure>
+              <ul class="project-points">
+                <li>Scores each word with CTC forced alignment on a Conformer-CTC model in ONNX Runtime, in 60–90&nbsp;ms per sentence.</li>
+                <li>Designed a reference-normalised mispronunciation check that lifted error-detection ROC-AUC from 0.88 to 0.96 (F1 0.81, ASR WER 2.9%).</li>
+                <li>Runs Qwen2.5-1.5B as a conversation partner on two CPU cores with int8 quantisation, prefix KV caching and streaming, nearly doubling decode speed.</li>
+                <li>Built a DeepEval suite (GLEU, edit F0.5, readability by level, local LLM judge) and 46 automated tests.</li>
+              </ul>
+              <div class="result-row"><span>Conformer-CTC</span><span>ONNX Runtime</span><span>Qwen2.5</span><span>Piper TTS</span><span>DeepEval</span><span>Gradio</span></div>
+              <div class="project-links"><a href="https://github.com/alirezayaned/TeachMe-English-Pronunciation-Coach" target="_blank" rel="noreferrer">View code ↗</a></div>
+            </div>
+          </article>
+          <article class="project-item">
+            <div class="project-index"><span class="number">02</span><span class="project-year">2026 · Personal</span></div>
+            <div class="project-body">
               <h3>AI Video Generation</h3>
               <p>Write one sentence; get a roughly one-minute video back. A small local LLM expands the prompt into a shot list, CogVideoX-2b renders each scene, AudioLDM2 generates a matching sound effect per scene, and ffmpeg stitches everything together with crossfades. The whole pipeline runs on a free Colab or Kaggle GPU with no API keys.</p>
               <ul class="project-points">
@@ -292,7 +324,7 @@
           </article>
           <!--
             To add another project, copy the <article class="project-item"> block above,
-            paste it here, and change the number (02, 03, ...), year, title, text, tags and links.
+            paste it here, and change the number (03, 04, ...), year, title, text, tags and links.
           -->
         </div>
       </section>
