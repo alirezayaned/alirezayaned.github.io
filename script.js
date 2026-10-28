@@ -9,7 +9,7 @@ const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 function setTheme(isDark) {
   body.classList.toggle('dark', isDark);
   themeToggle.checked = isDark;
-  themeColor.setAttribute('content', isDark ? '#161c1d' : '#f4f3ee');
+  themeColor.setAttribute('content', isDark ? '#171d1c' : '#f7f6f2');
 }
 
 // Use the visitor's saved choice; otherwise follow their system setting.
